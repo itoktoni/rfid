@@ -11,8 +11,16 @@ class HomeController extends Controller
 
     }
 
-    public function index()
+    public function index($post, $query)
     {
-        return view('pages.default');
+        $template = get_field('template', 5);
+        $data['template'] = json_decode(json_encode($template), FALSE);
+
+        return view('pages.homepage', $data);
+    }
+
+    public function about()
+    {
+        return view('pages.about');
     }
 }

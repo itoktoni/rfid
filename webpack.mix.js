@@ -11,9 +11,10 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.setPublicPath('../htdocs/content/themes/rfid/assets')
-    .js('htdocs/content/themes/rfid/assets/js/main.js', '../htdocs/content/themes/rfid/assets/js/')
-    .sass('htdocs/content/themes/rfid/assets/scss/master.scss', '../htdocs/content/themes/rfid/assets/css/');
+mix
+    .setPublicPath('../htdocs/assets')
+    // .js('htdocs/content/themes/rfid/assets/js/main.js', '../htdocs/assets/js/main.js')
+    .sass('htdocs/content/themes/rfid/assets/scss/master.scss', '/../htdocs/assets/css/master.css');
 
 // Full API
 // mix.js(src, output);
