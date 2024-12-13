@@ -7,7 +7,7 @@
             <div class="row">
               <div class="col-lg col-md-6 col-12">
                 <div class="footer-auhtor-area">
-                  <img src="assets/images/logo/logo3.png" alt="">
+                  <img style="width: 80%" src="{{ get_logo() }}" alt="">
                   <p>Tailor our Project <br class="d-lg-block d-none"> Management Software to <br class="d-lg-block d-none"> fit your unique processes.</p>
                   <ul class="social-links">
                     <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>

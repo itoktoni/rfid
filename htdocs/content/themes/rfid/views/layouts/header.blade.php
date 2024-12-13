@@ -18,7 +18,6 @@
     <link rel="stylesheet" href="{{ asset('assets/css/plugins/magnific-popup.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/plugins/slick-slider.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/plugins/owlcarousel.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/plugins/aos.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/typography.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/master.css') }}">
 

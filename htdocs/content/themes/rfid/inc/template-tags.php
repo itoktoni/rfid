@@ -184,3 +184,18 @@ if (! function_exists('archive_content_message')) {
         );
     }
 }
+
+if (! function_exists('get_logo')) {
+    /**
+     * Return an archive content message.
+     *
+     * @return string
+     */
+    function get_logo()
+    {
+        $custom_logo_id = get_theme_mod( 'custom_logo' );
+        $logo = wp_get_attachment_image_src( $custom_logo_id, 'full');
+
+        return $logo[0] ?? '';
+    }
+}

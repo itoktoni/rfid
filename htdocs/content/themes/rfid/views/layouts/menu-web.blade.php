@@ -8,8 +8,6 @@
           ->toArray();
       unset($submenus[0]);
 
-      //$submenus = json_decode(json_encode($submenus), false);
-
   @endphp
 
 
@@ -20,7 +18,7 @@
                   <div class="col-lg-12">
                       <div class="header-elements">
                           <div class="site-logo">
-                              <a href="index.html"><img src="assets/images/logo/logo1.png" alt=""></a>
+                              <a href="index.html"><img src="{{ get_logo() }}" alt=""></a>
                           </div>
                           <div class="main-menu">
 
